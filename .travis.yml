@@ -3,4 +3,4 @@ script:
   - npm install --global surge
   - export SURGE_TOKEN=4f75270ec1d0e4d48c5ecc3959f9d888
   - export SURGE_LOGIN=jayasanka.sack@gmail.com
-  - surge
+  - surge --project . --domain jayasanka@surge.sh
